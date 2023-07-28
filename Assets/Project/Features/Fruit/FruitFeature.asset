@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5e65bebc918054f8dc0666ca794812, type: 3}
+  m_Name: FruitFeature
+  m_EditorClassIdentifier: 
+  editorComment: 
+  apleConfig: {fileID: 11400000, guid: 596f05b8a1c7ecd469406a2ec71cfa03, type: 2}
+  bananaConfig: {fileID: 11400000, guid: 339c8b5cc3dda6d43b7da2340918c8c9, type: 2}
+  fruitCreatorConfig: {fileID: 11400000, guid: f7755dbb574285147967914e5cc44b02, type: 2}
+  appleSource: {fileID: 3788695421655613742, guid: c5fab993a8262564e992240eb65e1a4e, type: 3}
+  bananaSource: {fileID: 7017312304108115881, guid: b188bf32ce3f23240a3c2636d4589cfc, type: 3}

@@ -1,0 +1,26 @@
+{
+    "name": "Project",
+    "rootNamespace": "",
+    "references": [
+        "ME.ECS",
+        "ME.Pools",
+        "ME.ECS.Serializer",
+        "ME.ECS.IL2CPP",
+        "ME.ECS.Transform",
+        "ME.ECS.Markers",
+        "Unity.Mathematics",
+        "ME.ECS.Addons.DataConfigs",
+        "Unity.Collections",
+        "endel.nativewebsocket",
+        "ME.ECS.Essentials.GlobalEvents"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

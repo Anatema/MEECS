@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 3230910042643628060
+  - rid: 3230910042643628061
+  - rid: 3230910042643628062
+  - rid: 3230910042643628063
+  - rid: 3230910042643628064
+  - rid: 3230910042643628065
+  - rid: 3230910042643628220
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3230910042643628060
+      type: {class: Position, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          x: 0
+          y: 0
+          z: 0
+    - rid: 3230910042643628061
+      type: {class: Rotation, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          value:
+            x: 0.70710677
+            y: 0
+            z: 0
+            w: 0.70710677
+    - rid: 3230910042643628062
+      type: {class: Scale, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          x: 0
+          y: 0
+          z: 0
+    - rid: 3230910042643628063
+      type: {class: CollisionComponent, ns: Project.Components, asm: Project}
+      data:
+        radius: 0.4
+    - rid: 3230910042643628064
+      type: {class: AppleTag, ns: Project.Features.Fruit.Components, asm: Project}
+    - rid: 3230910042643628065
+      type: {class: CreatorEntity, ns: Project.Features.Fruit.Components, asm: Project}
+      data: {}
+    - rid: 3230910042643628220
+      type: {class: Uncollidable, ns: Project.Components, asm: Project}

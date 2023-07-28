@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: Duckling
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 3230910038744236447
+  - rid: 3230910038744236448
+  - rid: 3230910038744236449
+  - rid: 3230910038744236450
+  - rid: 3230910038744236451
+  - rid: 3230910038744236456
+  - rid: 3230910039364731803
+  - rid: 3230910042643628219
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3230910038744236447
+      type: {class: Position, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          x: 0
+          y: 0
+          z: 0
+    - rid: 3230910038744236448
+      type: {class: Rotation, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          value:
+            x: 0.70710677
+            y: 0
+            z: 0
+            w: -0.70710677
+    - rid: 3230910038744236449
+      type: {class: DuckBodyId, ns: Project.Features.Duck.Components, asm: Project}
+      data:
+        value: 0
+    - rid: 3230910038744236450
+      type: {class: DuckBodyTag, ns: Project.Features.Duck.Components, asm: Project}
+    - rid: 3230910038744236451
+      type: {class: CollisionComponent, ns: Project.Components, asm: Project}
+      data:
+        radius: 0.6
+    - rid: 3230910038744236456
+      type: {class: Scale, ns: ME.ECS.Transform, asm: ME.ECS.Transform}
+      data:
+        value:
+          x: 0.6
+          y: 0.6
+          z: 0.6
+    - rid: 3230910039364731803
+      type: {class: InactiveCollisionTimer, ns: Project.Components, asm: Project}
+      data:
+        timer: 3
+    - rid: 3230910042643628219
+      type: {class: Uncollidable, ns: Project.Components, asm: Project}
